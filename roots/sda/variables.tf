@@ -59,3 +59,7 @@ variable "storage_class" {
 variable "subdomain" {
   default = ""
 }
+
+variable "sda_url" {
+  default = ""
+}

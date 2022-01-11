@@ -57,6 +57,7 @@ data "template_file" "ci_eks" {
     oc_configmap_name = var.oc_configmap_name
     oc_secret_name    = var.oc_secret_name
     oc_secret_path    = var.oc_secret_path
+    sda_url           = var.sda_url
   }
 }
 

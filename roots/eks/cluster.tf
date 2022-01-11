@@ -8,6 +8,7 @@ module "cluster" {
   manage_aws_auth  = false
   subnets          = module.vpc.private_subnets
   vpc_id           = module.vpc.vpc_id
+  tags             = var.extra_tags
   write_kubeconfig = false
 
   worker_groups_launch_template = [for subnet in module.vpc.private_subnets :
