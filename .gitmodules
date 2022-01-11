@@ -1,4 +1,4 @@
 [submodule "roots/sda/oc-casc-bundle"]
 	path = roots/sda/oc-casc-bundle
 	url = git@github.com:tsingkofer-cb/oc-casc-bundle.git
-	branch = main
+	branch = usaf
