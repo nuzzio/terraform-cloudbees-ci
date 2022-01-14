@@ -288,6 +288,7 @@ image:
 serviceAccount:
   create: false
   name: ${kubernetes_service_account.alb_controller.metadata.0.name}
+createIngressClassResource: true
 EOT
 
   aws_region_name = data.aws_region.this.name

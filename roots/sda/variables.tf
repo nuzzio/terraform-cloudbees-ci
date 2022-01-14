@@ -7,7 +7,7 @@ variable "chart_repository" {
 }
 
 variable "chart_version" {
-  default = "3.36.4"
+  default = "3.39.4"
 }
 
 variable "ci_namespace" {
